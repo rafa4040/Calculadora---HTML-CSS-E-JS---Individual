@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada Moranguinho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tabuada-bg">
+
+    <div class="calculator"> <!-- Reutilizando o estilo da calculadora para consistência -->
+        <h2 class="title">🍓 Tabuada Mágica 🍓</h2>
+
+        <!-- Input e Botão -->
+        <input type="number" id="numero" class="display" placeholder="Digite um número" style="margin-bottom: 15px;">
+        <button onclick="gerarTabuada()" class="equal" style="width: 100%; margin-bottom: 15px;">Gerar Tabuada</button>
+
+        <!-- Caixa de Resultado -->
+        <div id="resultado" class="result-box">
+            A tabuada aparecerá aqui! ✨
+        </div>
+    </div>
+
+    <a href="index.html" class="btn-home" style="display: block; width: 350px; margin: -20px auto 40px auto;">← Voltar ao Início</a>
+
+    <!-- Glitter animado -->
+    <div class="glitter"></div>
+
+    <script src="tabuada.js"></script>
+</body>
+</html>
